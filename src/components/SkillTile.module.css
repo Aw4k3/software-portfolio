@@ -1,0 +1,8 @@
+.skillTile {
+    min-width: 100px;
+    padding: 1rem;
+    background-color: #252525;
+    border-radius: var(--border-radius);
+    text-align: center;
+    flex-grow: 1;
+}

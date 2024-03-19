@@ -1,0 +1,11 @@
+.buttonBase {
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+    background-color: #444444;
+    padding: 0.4rem 0.6rem;
+    border: none;
+    border-radius: var(--border-radius);
+    font: inherit;
+    width: min-content;
+}
