@@ -13,9 +13,11 @@ export default function Home() {
             <section>
                 <h2 className={styles.centredSubtitle}>Who am I?</h2>
                 <p>
-                    Hello, I am a full stack web developer with 2 years experience. I have a passion for creating
-                    elegant, reliable and responsive web apps I have a deep understaning of HTML, CSS and JavaScript,
-                    and I am also very familiar with frameworks/libraries such a React and Nextjs.
+                    Hello, I am a full stack web developer with 2 years
+                    experience. I have a passion for creating elegant, reliable
+                    and responsive web apps I have a deep understaning of HTML,
+                    CSS and JavaScript, and I am also very familiar with
+                    frameworks/libraries such a React and Nextjs.
                 </p>
             </section>
             <section className={styles.centredSubtitle}>
@@ -42,9 +44,11 @@ export default function Home() {
                     <h3>FakeAwake</h3>
                     <p>Technologies: Node, JavaScript, TypeScript</p>
                     <p>
-                        A personal project where I developed a Discord bot and then further developed to also be a
-                        Twitch bot. Through out this project I improved my understanding of JavaScript and TypeScript
-                        enormously. I have been working on this project on and off for 3 years now.
+                        A personal project where I developed a Discord bot and
+                        then further developed to also be a Twitch bot. Through
+                        out this project I improved my understanding of
+                        JavaScript and TypeScript enormously. I have been
+                        working on this project on and off for 3 years now.
                     </p>
                     <Button imageUri={GitHubLogo} label="GitHub" />
                 </div>
@@ -52,9 +56,10 @@ export default function Home() {
                     <h3>Recipes For Disaster</h3>
                     <p>Technologies: PHP</p>
                     <p>
-                        A university assignment project to get us started on dynamic web pages. This taught me the
-                        basics of developing dynamic web pages and database driven developement. This also taught me
-                        MVC.
+                        A university assignment project to get us started on
+                        dynamic web pages. This taught me the basics of
+                        developing dynamic web pages and database driven
+                        developement. This also taught me MVC.
                     </p>
                     <Button imageUri={GitHubLogo} label="GitHub" />
                 </div>
@@ -62,8 +67,10 @@ export default function Home() {
                     <h3>Diary Logger</h3>
                     <p>Technologies: Jetpack Compose, Kotlin</p>
                     <p>
-                        Another university assignment that taught us how to develop android applications using Google's
-                        Jetpack Compose. I learnt how to use Kotlin and design material UIs.
+                        Another university assignment that taught us how to
+                        develop android applications using Google's Jetpack
+                        Compose. I learnt how to use Kotlin and design material
+                        UIs.
                     </p>
                     <Button imageUri={GitHubLogo} label="GitHub" />
                 </div>

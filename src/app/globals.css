@@ -99,10 +99,21 @@ section {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    animation: fadeIn 200ms ease-out;
 }
 
 @media (prefers-color-scheme: dark) {
     html {
         color-scheme: dark;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 100;
     }
 }
