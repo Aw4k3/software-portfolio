@@ -6,15 +6,17 @@
     padding: 0rem 6rem;
     gap: 6rem;
     font-family: inherit;
+    margin: auto;
 }
 
 .landingSection {
     height: 100vh;
     max-width: none;
+    padding: 6rem;
     display: flex;
     flex-direction: column;
-    justify-content: center; 
-    text-align: center;
+    justify-content: center;
+    align-self: stretch;
 }
 
 .skillTiles {

@@ -7,8 +7,9 @@ export default function Home() {
     return (
         <main className={styles.main}>
             <section className={styles.landingSection}>
-                <h1>Welcome to my Portfolio</h1>
-                <p>Scroll to begin</p>
+                <h1>Hello there!</h1>
+                <h2>I am a full stack web developer. <span style={{fontSize: "1.5rem"}}>🌎</span></h2>
+                <p>I am also a photographer in my spare time. <span style={{fontSize: "1.5rem"}}>📸</span></p>
             </section>
             <section>
                 <h2 className={styles.centredSubtitle}>Who am I?</h2>
