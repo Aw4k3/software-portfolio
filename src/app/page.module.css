@@ -12,7 +12,6 @@
 .landingSection {
     height: 100vh;
     max-width: none;
-    padding: 6rem;
     display: flex;
     flex-direction: column;
     justify-content: center;

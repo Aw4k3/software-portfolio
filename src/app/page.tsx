@@ -69,7 +69,7 @@ export default function Home() {
                     <p>Technologies: Jetpack Compose, Kotlin</p>
                     <p>
                         Another university assignment that taught us how to
-                        develop android applications using Google's Jetpack
+                        develop android applications using Google&apos;s Jetpack
                         Compose. I learnt how to use Kotlin and design material
                         UIs.
                     </p>
