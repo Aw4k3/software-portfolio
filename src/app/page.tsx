@@ -12,7 +12,7 @@ export default function Home() {
                 <p>I am also a photographer in my spare time. <span style={{fontSize: "1.5rem"}}>📸</span></p>
             </section>
             <section>
-                <h2 className={styles.centredSubtitle}>Who am I?</h2>
+                <h2 className={styles.centredSubtitle} id="about">Who am I?</h2>
                 <p>
                     Hello, I am a full stack web developer with 2 years
                     experience. I have a passion for creating elegant, reliable
@@ -21,7 +21,7 @@ export default function Home() {
                     frameworks/libraries such a React and Nextjs.
                 </p>
             </section>
-            <section className={styles.centredSubtitle}>
+            <section className={styles.centredSubtitle} id="skills">
                 <h2>Skills</h2>
                 <div className={styles.skillTiles}>
                     <SkillTile label="HTML5" bgColour="#de6427" />
@@ -39,7 +39,7 @@ export default function Home() {
                     <SkillTile label="Hosting" bgColour="#f4b3bf" />
                 </div>
             </section>
-            <section className={styles.projectCards}>
+            <section className={styles.projectCards} id="projects">
                 <h2 className={styles.centredSubtitle}>Projects</h2>
                 <div className={styles.projectCard}>
                     <h3>FakeAwake</h3>
